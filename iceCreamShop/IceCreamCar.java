@@ -13,6 +13,8 @@ public class IceCreamCar implements IceCreamSeller {
         this.stock = stock;
     }
 
+    // HOOFDLETTERS MATTER
+    // cone != Cone
     public cone orderCone(Flavour[] balls) throws NoMoreCreamException {
         if (stock.getCones() > 0 && stock.getBalls() > 0) {
             Cone orderedCone = new Cone(Balls);

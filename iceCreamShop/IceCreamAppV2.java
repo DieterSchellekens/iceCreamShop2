@@ -1,7 +1,7 @@
 package iceCreamShop;
 
-import org.w3c.dom.ls.LSOutput;
-
+//import org.w3c.dom.ls.LSOutput;
+//this is definitely not the right import
 public class IceCreamAppV2 {
     public static void main(String[] args) {
         throws NoMoreIceCreamException {

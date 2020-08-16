@@ -1,6 +1,8 @@
 package iceCreamShop;
 
-import be.vdab.MagnumType
+//import be.vdab.MagnumType;
+// je hebt geen be.vdab package in je project maar importeert hier wel met die package declaratie??
+import static iceCreamShop.MagnumType.ALPINENUTS;
 
 public class PriceList {
     private double ballPrice;
@@ -33,9 +35,9 @@ public class PriceList {
     }
 
     public double getMagnumPrice(MagnumType mtype) {
-        switch (mtype) {
-            case ALPINENUTS:
-                magnumStandardPrice *= 1.5;
+        // switch case met 1 case is overbodig
+        if (mtype == ALPINENUTS) {
+            magnumStandardPrice *= 1.5;
         }
         return magnumStandardPrice;
     }

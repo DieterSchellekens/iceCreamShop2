@@ -1,6 +1,7 @@
 package iceCreamShop;
 
 public enum Flavour {
+    // enums met een hoofdletter
     Strawberry,
     Banana,
     Chocolate,
@@ -9,5 +10,5 @@ public enum Flavour {
     Straciatella,
     Mocha,
     Pistacho;
-    public static flavour mocha;
+    public static Flavour mocha; // ??
 }
